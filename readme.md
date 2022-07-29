@@ -5,6 +5,11 @@ This project structure with several directories and py files, especially.
 - The chip folder contains some files for the configurations and common methods.
 - The images folder contains a number of sample images where we will apply the CNN network to clasify.
 
+Prerequisites:
+- Download Flowers dataset: https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz 
+- Extract to folder: flower_photos
+- Create a 'checkpoints' folder to save the model
+
 1. Image Classification with a pre-trained model.
 
 - use a pretrained VGG16 model
